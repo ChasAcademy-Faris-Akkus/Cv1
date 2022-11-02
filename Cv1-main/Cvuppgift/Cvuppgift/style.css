@@ -19,8 +19,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 img {
-    width:100px;
+    width: 100px;
 }
 
 .image1 {
@@ -28,12 +29,22 @@ img {
 }
 
 nav {
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     align-items: center;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+}
+
+nav ul {
+    width: 30vw;
+}
+
+.active {
+    background-color: grey;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .Start {
@@ -64,24 +75,6 @@ nav ul li a:hover {
     color: black;
     transition: .3s;
 }
-
-
-/********** Subscribe button ************/
-
-.button1 {
-    background-color: rgb(211, 5, 5);
-    color: white;
-    font-weight: bold;
-    border-radius: 30px;
-    padding: 10px 25px;
-    border: 2px solid transparent;
-    text-decoration: none;
-    transition: transform .4s;
-}
-
-
-
-
 
 /******* Content Information *****/
 
@@ -136,7 +129,6 @@ h3 {
 /******** Flik 2 About *******/
 
 
-
 .About {
     width: 100%;
     padding: 100px 0px;
@@ -160,9 +152,10 @@ h3 {
 
 .about-text h2 {
     color: white;
-    font-size: 75px;
+    font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    
 }
 
 .about-text h5 {
@@ -245,7 +238,7 @@ h3 {
 
 .title h2 {
     color: white;
-    font-size: 75px;
+    font-size: 45px;
     margin: 30px auto;
 }
 
@@ -253,7 +246,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
